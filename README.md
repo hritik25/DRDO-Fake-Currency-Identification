@@ -1,0 +1,8 @@
+# Fake Currency Identification Using Deep Convolutional Neural Networks
+The work I did under Dr. S.K. Pal (DRDO, New Delhi) as a winter project.
+
+<a href='https://drive.google.com/open?id=0B4Z2WMJh0DB6VFptSkNKRWZ4QUE'>Here</a>'s the link to the paper which was submitted to a conference. The conclusion, which summarizes the work follows:
+
+We have demonstrated the feasibility of deploying deep learning techniques for the task of identifying fake currency notes, using the VGG-16 deep convolutional neural network model. We noted how deep convolutional neural networks can work as feature extractors and thus no image processing techniques need to be applied to manually find the presence of security features in a note. Although the generated data-set did not represent the real-world scenario of fake currency notes, it was helpful for experiments. Under the availability of a real data-set, the deep neural networks can be better trained. Such a model may then be built into a smart-phone app and can thus help people in detecting fake notes in case of suspicion in real time with just an image taken through the smart-phones camera. In the form of a smart-phone app, the VGG-16 model has been reported to take up to 550 MB of device memory. In a phone with a with a high-end processor, initialization of the app takes anywhere between 2 to 10 seconds and classification time is around 0.25 to 0.3 seconds per image. 
+
+Future avenues of research include examining various deep neural network architectures which are more efficient in terms of time and space complexity. Applying image pre-processing techniques like noise removal and edge-detection to crop the currency note out of an image will present a better input to the deep neural network.
